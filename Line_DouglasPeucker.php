@@ -1,6 +1,6 @@
 <?php
 /*
- * A Ramer-Douglas-Peuker implementation to simplify lines in PHP
+ * A Ramer-Douglas-Peucker implementation to simplify lines in PHP
  * Unlike the one by Pol Dell'Aiera this one is built to operate on an array of arrays and in a non-OO manner,
  * making it suitable for smaller apps which must consume input from ArcGIS or Leaflet, without the lixury of GeoPHP/GEOS
  * 
