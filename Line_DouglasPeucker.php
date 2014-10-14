@@ -2,7 +2,7 @@
 /*
  * A Ramer-Douglas-Peucker implementation to simplify lines in PHP
  * Unlike the one by Pol Dell'Aiera this one is built to operate on an array of arrays and in a non-OO manner,
- * making it suitable for smaller apps which must consume input from ArcGIS or Leaflet, without the lixury of GeoPHP/GEOS
+ * making it suitable for smaller apps which must consume input from ArcGIS or Leaflet, without the luxury of GeoPHP/GEOS
  * 
  * Usage:
  * $verts     = array( array(0,1), array(1,2), array(2,1), array(3,5), array(4,6), array(5,5) );
